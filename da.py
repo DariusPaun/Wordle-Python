@@ -4,6 +4,7 @@ from string import ascii_letters
 from rich.console import Console
 from rich.theme import Theme
 
+
 console = Console(width=40, theme=Theme({"warning": "red on yellow"}))
 
 NUM_LETTERS = 5
